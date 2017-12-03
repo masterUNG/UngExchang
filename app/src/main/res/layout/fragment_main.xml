@@ -77,6 +77,8 @@
 
             <!--TextField-->
             <EditText
+                android:inputType="number"
+                android:textColorHint="#ffffff"
                 android:id="@+id/edtMoney"
                 android:textColor="@color/colorPrimaryDark"
                 android:hint="@string/usd"
@@ -92,6 +94,19 @@
             android:id="@+id/btnExchange"
             android:text="Exchange"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Show Rate-->
+        <TextView
+            android:id="@+id/txtRateExchange"
+            android:clickable="true"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/h2"
+            android:text="Rate Exchange"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
 
